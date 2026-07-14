@@ -15,25 +15,25 @@ entry   = "nix_monitor.luau"
 
 [[widget.setting]]
 key         = "show_text"
-type        = "boolean"
+type        = "bool"
 label_key   = "setting.widget.show_text.label"
 default     = true
 
 [[widget.setting]]
 key         = "colorize_text"
-type        = "boolean"
+type        = "bool"
 label_key   = "setting.widget.colorize_text.label"
 default     = false
 
 [[widget.setting]]
 key         = "show_glyph"
-type        = "boolean"
+type        = "bool"
 label_key   = "setting.widget.show_glyph.label"
 default     = true
 
 [[widget.setting]]
 key         = "colorize_glyph"
-type        = "boolean"
+type        = "bool"
 label_key   = "setting.widget.colorize_glyph.label"
 default     = true
 
@@ -95,14 +95,14 @@ min             = 10
 
 [[setting]]
 key             = "show_checking_notification"
-type            = "boolean"
+type            = "bool"
 label_key       = "setting.checking_notification.label"
 description_key = "setting.checking_notification.description"
 default         = false
 
 [[setting]]
 key             = "show_update_notification"
-type            = "boolean"
+type            = "bool"
 label_key       = "setting.show_update_notification.label"
 description_key = "setting.show_update_notification.description"
 default         = true
@@ -147,7 +147,7 @@ default         = "nh clean all"
 
 [[setting]]
 key             = "close_on_enter"
-type            = "boolean"
+type            = "bool"
 label_key       = "setting.close_on_enter.label"
 description_key = "setting.close_on_enter.description"
 default         = true
