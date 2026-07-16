@@ -5,7 +5,7 @@ plugin_api = 3
 author       = "lux"
 license      = "MIT"
 tags         = ["hardware", "shortcut", "system"]
-icon         = "laptop"
+icon         = "device-laptop"
 description  = "Toggles battery conservation mode via the ideapad_acpi driver, on Lenovo IdeaPad and Legion laptops."
 dependencies = ["sudo", "dirname", "env", "bash", "chgrp", "chmod", "getent", "groupadd", "usermod", "cat", "udevadm"]
 
