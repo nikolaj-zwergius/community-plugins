@@ -14,7 +14,7 @@ license = "MIT"
 icon = "at"
 description = "A bar widget that displays Swatch Internet (.beat) Time"
 deprecated = false
-min_noctalia = "5.0.0"
+plugin_api = 3
 tags = ["fun", "clock", "utility", "time"]
 
 [[plugin]]
@@ -25,7 +25,7 @@ author = "whyoolw"
 license = "MIT"
 icon = "screen-share"
 description = "Automatically enables notification Do Not Disturb while a niri screencast is active."
-min_noctalia = "5.0.0"
+plugin_api = 3
 tags = ["privacy", "niri"]
 
 [[plugin]]
@@ -36,7 +36,7 @@ author = "nzlov"
 license = "MIT"
 icon = "photo"
 description = "Fetches a new daily wallpaper from Bing or NASA."
-min_noctalia = "5.0.0"
+plugin_api = 3
 tags = ["wallpaper", "desktop"]
 
 [[plugin]]
@@ -48,7 +48,7 @@ license = "MIT"
 icon = "package"
 description = "A plugin that provides a widget for displaying system update information."
 deprecated = false
-min_noctalia = "5.0.0"
+plugin_api = 3
 tags = ["system", "arch"]
 
 [[plugin]]
@@ -59,7 +59,7 @@ author = "LucasOe"
 license = "MIT"
 icon = "lock"
 description = "Access Proton Pass from the launcher"
-min_noctalia = "5.0.0"
+plugin_api = 3
 tags = ["launcher"]
 
 [[plugin]]
@@ -71,7 +71,7 @@ license = "MIT"
 icon = "keyboard"
 description = "Mangowm keymode notifier"
 deprecated = false
-min_noctalia = "5.0.0"
+plugin_api = 3
 tags = ["bar", "mangowc"]
 
 [[plugin]]
@@ -82,7 +82,7 @@ author = "oldirtty"
 license = "MIT"
 icon = "palette"
 description = "Pick a color from your screen with hyprpicker."
-min_noctalia = "5.0.0"
+plugin_api = 3
 tags = ["theming", "utility", "bar", "panel"]
 
 [[plugin]]
@@ -93,7 +93,7 @@ author = "nikolaj-zwergius"
 license = "MIT"
 icon = "lock"
 description = "Orientation lock for 2‑in‑1 devices using iio-hyprland and similar."
-min_noctalia = "5.0.0"
+plugin_api = 3
 tags = ["hyprland", "sway", "desktop", "utility"]
 
 [[plugin]]
@@ -105,7 +105,7 @@ license = "MIT"
 icon = "nut"
 description = "A launcher provider that adds PrismLauncher instances to the noctalia launcher."
 deprecated = false
-min_noctalia = "5.0.0"
+plugin_api = 3
 tags = ["gaming", "launcher"]
 
 [[plugin]]
@@ -116,7 +116,7 @@ author = "avivbintangaringga"
 license = "MIT"
 icon = "package"
 description = "Nixpkgs update monitor"
-min_noctalia = "5.0.0"
+plugin_api = 3
 tags = ["nixos", "utility"]
 
 [[plugin]]
@@ -127,7 +127,7 @@ author = "nightwatch75"
 license = "MIT"
 icon = "checklist"
 description = "A prioritised task list with a bar widget and editable panel."
-min_noctalia = "5.0.0"
+plugin_api = 3
 tags = ["bar", "panel", "productivity"]
 
 [[plugin]]
@@ -138,7 +138,7 @@ author = "8bury"
 license = "MIT"
 icon = "brand-docker"
 description = "Manage Docker containers, images, volumes, and networks from Noctalia."
-min_noctalia = "5.0.0"
+plugin_api = 3
 tags = ["bar", "panel", "service", "development", "system", "utility"]
 
 [[plugin]]
@@ -149,7 +149,7 @@ author = "ThatOneCalculator"
 license = "MIT"
 icon = "car-fan"
 description = "Set the fan state on the ZenBook S 16 UM5606."
-min_noctalia = "5.0.0"
+plugin_api = 3
 tags = ["hardware"]
 
 [[plugin]]
@@ -160,7 +160,7 @@ author = "Cristhian Melo"
 license = "MIT"
 icon = "plug"
 description = "Inspect and kill listening TCP/UDP ports."
-min_noctalia = "5.0.0"
+plugin_api = 3
 tags = ["network", "utility", "development", "indicator", "bar", "panel", "service"]
 
 [[plugin]]
@@ -171,5 +171,5 @@ author = "lux"
 license = "MIT"
 icon = "laptop"
 description = "Toggles battery conservation mode via the ideapad_acpi driver, on Lenovo IdeaPad and Legion laptops."
-min_noctalia = "5.0.0"
+plugin_api = 3
 tags = ["hardware", "shortcut", "system"]
