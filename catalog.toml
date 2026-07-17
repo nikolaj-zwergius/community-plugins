@@ -99,11 +99,11 @@ tags = ["hyprland", "sway", "desktop", "utility"]
 [[plugin]]
 id = "radimous/prismlauncher-instances"
 name = "PrismLauncher Instances"
-version = "1.0.0"
+version = "1.0.1"
 author = "radimous"
 license = "MIT"
 icon = "nut"
-description = "A launcher provider that adds PrismLauncher instances to the noctalia launcher."
+description = "A launcher provider that adds PrismLauncher and PrismLauncher fork instances to the noctalia launcher."
 deprecated = false
 plugin_api = 3
 tags = ["gaming", "launcher"]
