@@ -37,3 +37,10 @@ noctalia.state.watch("iio-state", function (value)
     locked = value
     apply_lock_state()
 end)
+
+function onIpc(event,payload)
+    if event == "toggle" then
+    locked = not noctalia.state.get("iio-state")
+    noctalia.state.set("iio-state",locked)
+    end
+end

@@ -1,6 +1,6 @@
 id = "nikolaj-zwergius/iio_lock"
 name = "iio-lock"
-version = "1.0.0"
+version = "1.1.0"
 plugin_api = 3
 author = "nikolaj-zwergius"
 license = "MIT"
